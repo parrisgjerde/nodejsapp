@@ -1,0 +1,14 @@
+{
+  "name": "nodejsapp",
+  "version": "1.0.0",
+  "description": "App to open mailinator emails",
+  "main": "getEmails.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mailinator-inbox": "^1.3.0"
+  }
+}

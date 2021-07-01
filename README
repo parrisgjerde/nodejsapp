@@ -1,0 +1,11 @@
+This code is used to capture sendgrid webhook data.
+Steps:
+1) In a separate windo run ngrok (in Downloads) as "ngrok http 8080"
+   Note - an ngrok auth key must reside in ~/.ngrok2/ngrok.yml
+2) copy ngrok Forwarding URL as the URL used in the sendgrid webhook definition
+3) In another window, in the current directory, execute the server listen8080.js
+   node listen8080.js
+4) In another window, goto the ~/bmh/sendgrid folder and execute the file
+   single_webapi.sh test
+   for example, you should eventually see webhook data printed to the console
+   in the node js window (ngrok does some logging as well)
